@@ -8,6 +8,11 @@ class ListNode:
 
 class Solution:
     def mergeTwoLists(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
         head = ListNode(0)
         current = head
         while l1 != None and l2 != None:
